@@ -1,26 +1,16 @@
 {
-  "name": "xing.zou/upload_ing_to_s3",
-  "description": "upload img to s3",
-  "type": "composer-plugin",
-  "minimum-stability": "dev",
-  "support": {
-    "source": "https://github.com/zouxing111/upload_img_to_s3"
-  },
-  "config": {
-    "process-timeout": 1800
-  },
-  "require": {
-    "aws/aws-sdk-php": "2.8.30"
-  },
-  "authors": [
-    {
-      "name": "zou xing",
-      "email": "405028298@qq.com"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "uploadImg\\": "src/uploadImg/"
-    }
-  }
+    "name": "zouxing/upload_img_to_s3",
+    "description": "upload img to s3",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "2.8.30"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zou xing",
+            "email": "405028298@qq.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
