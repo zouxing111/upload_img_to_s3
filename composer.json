@@ -2,6 +2,7 @@
   "name": "xing.zou/upload_ing_to_s3",
   "description": "upload img to s3",
   "type": "composer-plugin",
+  "minimum-stability": "dev",
   "require": {
     "aws/aws-sdk-php": "2.8.30"
   },
@@ -13,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "uploadImg\\": "uploadImg/"
+      "uploadImg\\": "src/uploadImg/"
     }
   }
 }
