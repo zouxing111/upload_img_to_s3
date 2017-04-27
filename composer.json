@@ -12,5 +12,10 @@
             "email": "405028298@qq.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "uploadImg\\": "src/uploadImg/"
+        }
+    }
 }
