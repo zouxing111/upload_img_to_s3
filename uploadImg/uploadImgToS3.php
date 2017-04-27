@@ -14,7 +14,7 @@ use Aws\S3\Exception\S3Exception;
 use Guzzle\Http\EntityBody;
 use uploadImg\common;
 
-class uploadImg
+class uploadImgToS3
 {
 
     protected static $obj;
