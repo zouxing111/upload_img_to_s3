@@ -1,14 +1,19 @@
 {
-    "name": "xing.zou/upload_ing_to_s3",
-    "description": "upload img to s3",
-    "type": "composer-plugin",
-    "require": {
-        "aws/aws-sdk-php": "2.8.30"
-    },
-    "authors": [
-        {
-            "name": "zou xing",
-            "email": "405028298@qq.com"
-        }
-    ]
+  "name": "xing.zou/upload_ing_to_s3",
+  "description": "upload img to s3",
+  "type": "composer-plugin",
+  "require": {
+    "aws/aws-sdk-php": "2.8.30"
+  },
+  "authors": [
+    {
+      "name": "zou xing",
+      "email": "405028298@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "uploadImg\\": "./uploadImg"
+    }
+  }
 }
