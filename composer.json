@@ -3,6 +3,12 @@
   "description": "upload img to s3",
   "type": "composer-plugin",
   "minimum-stability": "dev",
+  "support": {
+    "source": "https://github.com/zouxing111/upload_img_to_s3"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
   "require": {
     "aws/aws-sdk-php": "2.8.30"
   },
