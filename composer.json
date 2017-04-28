@@ -1,18 +1,23 @@
 {
-    "name": "zouxing/upload_img_to_s3",
-    "description": "upload img to s3",
-    "type": "libbrary",
-    "require": {
-        "aws/aws-sdk-php": "2.8.30"
-    },
-    "require-dev": {
-        "aws/aws-sdk-php": "2.8.30"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "xing.zou",
-            "email": "405028298@qq.com"
-        }
-    ]
+  "name": "zouxing/upload_img_to_s3",
+  "description": "upload img to s3",
+  "type": "libbrary",
+  "require": {
+    "aws/aws-sdk-php": "2.8.30"
+  },
+  "require-dev": {
+    "aws/aws-sdk-php": "2.8.30"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xing.zou",
+      "email": "405028298@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "uploadImg\\": "src/uploadImg/"
+    }
+  }
 }
