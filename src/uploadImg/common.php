@@ -36,6 +36,6 @@ class common
                 $imgInfo[2] = 'webp';
             }
         }
-        return $filePath;
+        return $imgInfo;
     }
 }
