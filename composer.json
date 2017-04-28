@@ -2,12 +2,6 @@
   "name": "zouxing/upload_img_to_s3",
   "description": "upload img to s3",
   "type": "libbrary",
-  "require": {
-    "aws/aws-sdk-php": "2.8.30"
-  },
-  "require-dev": {
-    "aws/aws-sdk-php": "2.8.30"
-  },
   "license": "MIT",
   "authors": [
     {
@@ -17,7 +11,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "uploadImg\\": "src/uploadImg/"
+      "uploadImg\\": "src/uploadImg/",
+      "Aws\\":"aws/Aws/",
+      "Aws\S3\\":"aws/Aws/S3/",
+      "Guzzle\\":"aws/Guzzle/",
+      "Guzzle\\Http\\":"aws/Guzzle/Http/"
     }
   }
 }
