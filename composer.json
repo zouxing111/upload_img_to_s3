@@ -13,7 +13,7 @@
     "psr-4": {
       "uploadImg\\": "src/uploadImg/",
       "Aws\\":"aws/Aws/",
-      "Aws\S3\\":"aws/Aws/S3/",
+      "Aws\\S3\\":"aws/Aws/S3/",
       "Guzzle\\":"aws/Guzzle/",
       "Guzzle\\Http\\":"aws/Guzzle/Http/"
     }
