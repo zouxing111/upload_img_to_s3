@@ -1,21 +1,18 @@
 {
     "name": "zouxing/upload_img_to_s3",
     "description": "upload img to s3",
-    "type": "library",
+    "type": "libbrary",
     "require": {
+        "aws/aws-sdk-php": "2.8.30"
+    },
+    "require-dev": {
         "aws/aws-sdk-php": "2.8.30"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "zou xing",
+            "name": "xing.zou",
             "email": "405028298@qq.com"
         }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "uploadImg\\": "src/uploadImg/"
-        }
-    }
+    ]
 }
