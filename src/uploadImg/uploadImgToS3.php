@@ -27,7 +27,7 @@ class uploadImgToS3
     public static function getInstance($s3url, $bucket, $key, $secret, $s3dir = '')
     {
         if (!self::$obj) {
-            self::$obj = new uploadImg($s3url, $bucket, $key, $secret, $s3dir);
+            self::$obj = new uploadImgToS3($s3url, $bucket, $key, $secret, $s3dir);
         }
         return self::$obj;
     }
